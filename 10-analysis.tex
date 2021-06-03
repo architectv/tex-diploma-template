@@ -1,0 +1,47 @@
+\section{Аналитическая часть}
+
+\subsection{Подраздел}
+
+Список:
+
+\begin{itemize}[leftmargin=1.6\parindent]
+	\item[---] первое;
+	\item[---] второе;
+	\item[---] пятое;
+	\item[---] десятое.
+\end{itemize}
+
+Формула:
+
+\begin{equation}
+c^2 = a^2 + b^2
+\end{equation}
+
+Ссылаемся на рисунок \ref{fig:a1}. Информация из источника \cite{golang}.
+
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[width=\textwidth]{img/golang.png}
+	\caption{Пример рисунка}
+	\label{fig:a1}
+\end{figure}
+
+\begin{code}
+	\captionof{listing}{Пример кода}
+	\label{code:1}
+	\inputminted
+	[
+	frame=single,
+	framerule=0.5pt,
+	framesep=20pt,
+	fontsize=\small,
+	tabsize=4,
+	linenos,
+	numbersep=5pt,
+	xleftmargin=10pt,
+	]
+	{text}
+	{code/main.go}
+\end{code}
+
+\pagebreak
